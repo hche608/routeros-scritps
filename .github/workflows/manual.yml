@@ -28,8 +28,11 @@ jobs:
     - uses: actions/checkout@v2
 
     - run: sh route-generater/generater.sh "https://ispip.clang.cn/chinatelecom_cidr.txt" chinatelecom_cidr dpbr-CT
-
+    - run: sh route-generater/generater.sh "https://ispip.clang.cn/unicom_cnc_cidr.txt" unicom_cnc_cidr dpbr-CU
+    - run: sh route-generater/generater.sh "https://ispip.clang.cn/cmcc_cidr.txt" cmcc_cidr dpbr-CMCC
+    - run: sh route-generater/generater.sh "https://ispip.clang.cn/all_cn_cidr.txt" all_cn_cidr dpbr-CN
+      
     - uses: actions/upload-artifact@v2
       with:
-        name: dpbr-CT
-        path: export/chinatelecom_cidr.rsc
+        name: routeros-rsc
+        path: export/*.rsc
