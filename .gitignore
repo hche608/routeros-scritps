@@ -178,3 +178,4 @@ $RECYCLE.BIN/
 # End of https://www.toptal.com/developers/gitignore/api/vscode,intellij+all,macos,linux,windows,powershell
 
 route-generater/export/*.*
+.idea/

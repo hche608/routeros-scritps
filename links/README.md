@@ -1,0 +1,6 @@
+* [RouterOS IPv6无状态地址自动配置实例](http://www.irouteros.com/?p=809)
+* [RouterOS](https://www.vsean.net/)
+* [RouterOS 默认防火墙规则](https://www.vsean.net/2019/11/26/routeros-default-firewall-rule/)
+* [RouterOS IPv6 实用脚本](https://www.vsean.net/2020/04/20/routeros-ipv6-scripts/)
+* [RouterOS 定时重连 PPPoE 脚本](https://www.vsean.net/2019/11/21/routeros-pppoe-auto-redial/)
+* [RouterOS 默认防火墙规则]()
